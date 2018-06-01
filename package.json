@@ -1,0 +1,16 @@
+{
+	"scripts": {
+		"generate-mock-data": "babel-node ./api/generateMockData.js",
+		"prestart": "npm run generate-mock-data",
+		"start": "json-server --watch api/db.json --port 3001"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"faker": "^4.1.0",
+		"json-schema-faker": "^0.5.0-rc15",
+		"json-server": "^0.13.0"
+	}
+}
