@@ -9,10 +9,12 @@ git clone https://github.com/rosalindwills/mock-api-demo/
 2. Install dependencies
 
 ```
+cd mock-api-demo
 npm install
 ```
 OR
 ```
+cd mock-api-demo
 yarn
 ```
 
